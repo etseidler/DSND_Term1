@@ -1,0 +1,5 @@
+python train.py flowers
+python train.py flowers --save_dir .
+python train.py flowers --arch "resnet152"
+python train.py flowers --learning_rate 0.01 --hidden_units 512 --epochs 2
+python train.py flowers --gpu

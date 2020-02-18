@@ -1,0 +1,8 @@
+python predict.py flowers/test/55/image_04733.jpg state_checkpoint.pth
+python predict.py flowers/test/55/image_04733.jpg state_checkpoint.pth --top_k 5
+python predict.py flowers/test/55/image_04733.jpg state_checkpoint.pth --category_names cat_to_name.json
+python predict.py flowers/test/55/image_04733.jpg state_checkpoint.pth --category_names cat_to_name.json --top_k 5
+python predict.py flowers/test/55/image_04733.jpg state_checkpoint.pth --category_names cat_to_name.json --top_k 5 --gpu
+python predict.py flowers/test/55/image_04733.jpg state_checkpoint.pth --top_k 5 --gpu
+python predict.py flowers/test/55/image_04733.jpg state_checkpoint.pth --category_names cat_to_name.json --gpu
+python predict.py flowers/test/55/image_04733.jpg state_checkpoint.pth --gpu
